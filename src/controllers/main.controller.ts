@@ -65,6 +65,6 @@ const result = await this.userRepository.find(
  }
 );
 
-return result[0];
+return result[0];//Here i m not getting the included relation
   }
 }
